@@ -15,7 +15,8 @@ st.markdown('Every year, humans continue to produce more greenhouse gas emission
 coastline_df = pd.read_csv('./data/coastline_lengths.csv', header=1, thousands=',')
 ghg_df = pd.read_csv('./data/ghg_EDGAR_country.csv')
 co2_df = pd.read_csv('./data/mean_co2_ppm.csv')
-sea_level_df = pd.read_csv('./data/mean_sea_level_global.csv')
+# sea_level_df = pd.read_csv('./data/mean_sea_level_global.csv')
+sea_level_df = pd.read_csv('./data/sea_level.csv')
 
 # vis 1
 co2_df.rename(columns={'decimal_year': 'Year'}, inplace=True)

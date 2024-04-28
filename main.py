@@ -165,7 +165,7 @@ interactive_sea_level = alt.layer(
 st.altair_chart(interactive_sea_level, use_container_width=True)
 
 
-st.markdown('Sea level rise can increase the rate of extreme weather event occurrences, which has huge impacts on communities, infrastructure, and land. With warmer atmospheres and higher ocean levels, hurricanes, floods, and storm surges will continue to become more common, which all have more impact on coastal countries than those with more landlocked regions.')
+st.markdown('Sea level rise can increase the rate of extreme weather event occurrences, which has huge impacts on communities, infrastructure, and land. With warmer atmospheres and higher ocean levels, hurricanes, floods, and storm surges will continue to become more common, which all have more impact on coastal countries than those with more landlocked regions. As more than 40% of all humans live within 100 kilometers of the coast, societies will continue to be strongly damaged by the sideeffects of sea level rise and climate change. The following two maps can give a clear idea of which countries have the highest coastline lengths, and which have a higher amount of coastline compared to their area.')
 
 
 coasts = pd.read_csv('./data/coasts_countries.csv')
@@ -185,8 +185,8 @@ choro = alt.Chart(countries).mark_geoshape(
 ).project(
     type='equalEarth'
 ).properties(
-    width=800,
-    height=600
+    width=600,
+    height=450
 )
 
 coast_per_area = alt.Chart(countries).mark_geoshape(
@@ -200,8 +200,8 @@ coast_per_area = alt.Chart(countries).mark_geoshape(
 ).project(
     type='equalEarth'
 ).properties(
-    width=800,
-    height=600
+    width=600,
+    height=450
 )
 
 vertical = (choro & coast_per_area).resolve_scale(
@@ -209,4 +209,4 @@ vertical = (choro & coast_per_area).resolve_scale(
 )
 st.altair_chart(vertical, use_container_width=True)
 
-
+st.markdown('Comparing these maps to the list of countries that have produced the most significant amounts of greenhouse gas emissions, we can find very little overlap. Island countries will be disproportionately damaged compared to their contributions to climate change, especially since they are often less affluent, developing nations.')

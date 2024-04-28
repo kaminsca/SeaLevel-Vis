@@ -9,7 +9,7 @@ import pycountry
 st.title('Who Does Climate Change Really Affect?') 
 st.header('Clark Kaminsky') 
 st.subheader('4/28/2024')
-st.markdown('This is where I write my text.')
+st.markdown('Every year, humans continue to produce more greenhouse gas emissions as a result of industrialization, travel, and food production. Global warming has been shown to be directly proportional to the amount of carbon dioxide in the atmosphere -- carbon dioxide is one of the primary products of burning coal, natural gas, and other fossil fuels. For every 10 parts per million increase in atmospheric carbon dioxide, the mean global temperature has been shown to rise by a tenth of a Celsius degree.')
 
 # Create dataframes:
 coastline_df = pd.read_csv('./data/coastline_lengths.csv', header=1, thousands=',')

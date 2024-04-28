@@ -118,6 +118,9 @@ ghg_country_chart = alt.Chart(ghg_melted).mark_bar().add_params(
 st.altair_chart(ghg_country_chart, use_container_width=True)
 
 
+st.markdown('Furthermore, as our carbon dioxide and methane emissions are warming the planet, the global sea level is increasing accordingly. First of all, a warming earth causes water trapped in ice at the poles or in glaciers to melt, directly adding to the sea level, but increased temperature simultaneously causes water to expand, further increasing sea level. This trend can also cause a positive feedback loop: as glacier ice melts, the albedo of the earth is increased, causing the planet to reflect less sunlight and absorb more heat. Sea level rise has huge impacts on communities and extreme weather patterns --')
+
+
 
 sea_level_df.rename(columns={"fld3": "decimal_year", "fld6": "GMSL_mm"}, inplace=True)
 zoom2 = alt.selection_interval(bind='scales', encodings=['x'])
@@ -135,6 +138,7 @@ sea_level_chart = alt.Chart(sea_level_df).mark_line().encode(
 line = alt.Chart(sea_level_df).mark_rule(size=4, color='lightgray').encode(
     x='decimal_year:Q',
     opacity=alt.condition(nearest2, alt.value(0.7), alt.value(0)),
+    tooltip=alt.value(None),
 ).add_params(
     nearest2
 )

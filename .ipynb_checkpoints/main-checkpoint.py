@@ -178,9 +178,6 @@ choro = alt.Chart(countries).mark_geoshape(
     tooltip=['Country:N','Coastline Length:Q']
 ).project(
     type='equalEarth'
-).properties(
-    width=600,
-    height=500
 )
 st.altair_chart(choro, use_container_width=True)
 

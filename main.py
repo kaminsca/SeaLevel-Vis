@@ -17,6 +17,8 @@ ghg_df = pd.read_csv('./data/ghg_EDGAR_country.csv')
 co2_df = pd.read_csv('./data/mean_co2_ppm.csv')
 sea_level_df = pd.read_csv('./data/mean_sea_level_global.csv')
 
+# vis 1
+co2_df.rename(columns={'decimal_year': 'Year'}, inplace=True)
 zoom = alt.selection_interval(bind='scales', encodings=['x'])
 nearest = alt.selection_point(on='mouseover', nearest=True, empty=False, encodings=['x'])
 

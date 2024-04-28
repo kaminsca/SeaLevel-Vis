@@ -63,7 +63,7 @@ interactive_co2 = alt.layer(
 
 st.altair_chart(interactive_co2, use_container_width=True)
 
-
+st.markdown('Atmospheric greenhouse gases have been produced from industrial emissions for many years, but are reaching unprecendented levels in recent years.')
 
 
 

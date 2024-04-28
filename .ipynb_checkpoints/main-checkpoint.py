@@ -9,7 +9,7 @@ import pycountry
 st.title('Who Does Climate Change Really Affect?') 
 st.header('Clark Kaminsky') 
 st.subheader('4/28/2024')
-st.markdown('Every year, humans continue to produce more greenhouse gas emissions as a result of industrialization, travel, and food production. Global warming has been shown to be directly proportional to the amount of carbon dioxide in the atmosphere -- carbon dioxide is one of the primary products of burning coal, natural gas, and other fossil fuels. For every 10 parts per million increase in atmospheric carbon dioxide, the mean global temperature has been shown to rise by a tenth of a Celsius degree.')
+st.markdown('Every year, humans continue to produce more greenhouse gas emissions as a result of industrialization, travel, and food production. Global warming has been shown to be directly proportional to the amount of carbon dioxide in the atmosphere -- carbon dioxide is one of the primary products of burning coal, natural gas, and other fossil fuels. For every 10 parts per million increase in atmospheric carbon dioxide, the mean global temperature has been shown to rise by a tenth of a Celsius degree. In this following chart, we can explore how the levels of carbon dioxide have changed over time, feel free to zoom and pan to find specific years:')
 
 # Create dataframes:
 coastline_df = pd.read_csv('./data/coastline_lengths.csv', header=1, thousands=',')
@@ -24,7 +24,8 @@ nearest = alt.selection_point(on='mouseover', nearest=True, empty=False, encodin
 
 co2_chart = alt.Chart(co2_df).mark_line().encode(
     y = alt.Y('monthly_average:Q', title='CO2 (ppm)'),
-    x = alt.X('Year:Q', title='Year', axis=alt.Axis(format='d', title=None), scale=alt.Scale(domain=[1961, 2023]))
+    x = alt.X('Year:Q', title='Year', axis=alt.Axis(format='d', title=None), scale=alt.Scale(domain=[1961, 2023])),
+    tooltip=alt.value(None),
 ).add_params(
     zoom
 )

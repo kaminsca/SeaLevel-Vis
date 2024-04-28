@@ -1,250 +1,249 @@
-Country,Coastline Length,iso_a3,numeric_code
-Canada,202080.0,CAN,124
-Norway,83281.0,NOR,578
-Indonesia,54716.0,IDN,360
-Greenland,44087.0,GRL,304
-Russia,37653.0,RUS,643
-Philippines,36289.0,PHL,608
-Japan,29751.0,JPN,392
-Australia,25760.0,AUS,36
-United States,19924.0,USA,840
-Antarctica,17968.0,ATA,10
-New Zealand,15134.0,NZL,554
-China,14500.0,CHN,156
-Greece,13676.0,GRC,300
-United Kingdom,12429.0,GBR,826
-Mexico,9330.0,MEX,484
-Italy,7600.0,ITA,380
-Brazil,7491.0,BRA,76
-Denmark,7314.0,DNK,208
-Turkey,7200.0,-1,792
-India,7000.0,IND,356
-Chile,6435.0,CHL,152
-"Micronesia, Federated States of",6112.0,FSM,583
-Croatia,5835.0,HRV,191
-Solomon Islands,5313.0,SLB,90
-Papua New Guinea,5152.0,PNG,598
-Argentina,4989.0,ARG,32
-Iceland,4970.0,ISL,352
-Spain,4964.0,ESP,724
-France,4853.0,FRA,250
-Madagascar,4828.0,MDG,450
-Malaysia,4675.0,MYS,458
-Estonia,3794.0,EST,233
-Cuba,3735.0,CUB,192
-Svalbard,3587.0,SJM,744
-"Bahamas, The",3542.0,-1,44
-Vietnam,3444.0,VNM,704
-Somalia,3333.0,SOM,706
-Thailand,3219.0,THA,764
-Sweden,3218.0,SWE,752
-Colombia,3208.0,COL,170
-Coral Sea Islands,3095.0,-1,
-French Southern and Antarctic Lands,2948.4,-1,
-Morocco,2945.0,MAR,504
-Venezuela,2800.0,VEN,862
-South Africa,2798.0,ZAF,710
-Ukraine,2782.0,UKR,804
-Saudi Arabia,2640.0,SAU,682
-Vanuatu,2528.0,VUT,548
-French Polynesia,2525.0,PYF,258
-"Korea, North",2495.0,-1,408
-Panama,2490.0,PAN,591
-Mozambique,2470.0,MOZ,508
-Egypt,2450.0,EGY,818
-Iran,2440.0,IRN,364
-Peru,2414.0,PER,604
-"Korea, South",2413.0,-1,410
-Germany,2389.0,DEU,276
-New Caledonia,2254.0,NCL,540
-Ecuador,2237.0,ECU,218
-Eritrea,2234.0,ERI,232
-Oman,2092.0,OMN,512
-Myanmar,1930.0,MMR,104
-Yemen,1906.0,YEM,887
-Portugal,1793.0,PRT,620
-Haiti,1771.0,HTI,332
-Libya,1770.0,LBY,434
-Algeria,1644.0,DZA,12
-Angola,1600.0,AGO,24
-Namibia,1572.0,NAM,516
-Republic of China (Taiwan),1566.3,-1,
-Palau,1519.0,PLW,585
-Northern Mariana Islands,1482.0,MNP,580
-Ireland,1448.0,IRL,372
-Sri Lanka,1340.0,LKA,144
-Tanzania,1424.0,TZA,834
-United Arab Emirates,1318.0,ARE,784
-Costa Rica,1290.0,CRI,188
-Dominican Republic,1288.0,DOM,214
-Falkland Islands,1288.0,FLK,238
-Finland,1250.0,FIN,246
-Tunisia,1148.0,TUN,788
-Kiribati,1143.0,KIR,296
-Fiji,1129.0,FJI,242
-Faroe Islands,1117.0,FRO,234
-Pakistan,1046.0,PAK,586
-Jamaica,1022.0,JAM,388
-Cape Verde,965.0,-1,
-Spratly Islands,926.0,-1,
-Nicaragua,910.0,NIC,558
-Gabon,885.0,GAB,266
-Nigeria,853.0,NGA,566
-Sudan,853.0,SDN,729
-Honduras,832.0,HND,340
-Mauritania,754.0,MRT,478
-Hong Kong,733.0,HKG,344
-Timor-Leste,706.0,TLS,626
-British Indian Ocean Territory,698.0,IOT,86
-Uruguay,660.0,URY,858
-Cyprus,648.0,CYP,196
-Maldives,644.0,MDV,462
-Bangladesh,580.0,BGD,50
-Liberia,579.0,LBR,430
-Qatar,563.0,QAT,634
-Ghana,539.0,GHA,288
-Kenya,536.0,KEN,404
-Senegal,531.0,SEN,686
-Paracel Islands,518.0,-1,
-Côte d'Ivoire (Ivory Coast),515.0,-1,
-Puerto Rico,501.0,PRI,630
-Kuwait,499.0,KWT,414
-Latvia,498.0,LVA,428
-Seychelles,491.0,SYC,690
-Guyana,459.0,GUY,328
-Netherlands,451.0,NLD,528
-Cambodia,443.0,KHM,116
-Poland,440.0,POL,616
-Tonga,419.0,TON,776
-Samoa,403.0,WSM,882
-Cameroon,402.0,CMR,120
-Sierra Leone,402.0,SLE,694
-Guatemala,400.0,GTM,320
-Turks and Caicos Islands,389.0,TCA,796
-Belize,386.0,BLZ,84
-Suriname,386.0,SUR,740
-Marshall Islands,370.4,MHL,584
-Curaçao,364.0,NLD,528
-Albania,362.0,ALB,8
-Trinidad and Tobago,362.0,TTO,780
-Bulgaria,354.0,BGR,100
-Guinea-Bissau,350.0,GNB,624
-Comoros,340.0,COM,174
-Guinea,320.0,GIN,324
-Djibouti,314.0,DJI,262
-Georgia,310.0,GEO,268
-El Salvador,307.0,SLV,222
-Equatorial Guinea,296.0,GNQ,226
-Montenegro,293.5,MNE,499
-Israel,273.0,ISR,376
-Malta,252.8,MLT,470
-Lebanon,225.0,LBN,422
-Romania,225.0,ROU,642
-São Tomé and Príncipe,209.0,STP,678
-Singapore,193.0,SGP,702
-Syria,193.0,SYR,760
-U.S. Virgin Islands,188.0,-1,
-Mauritius,177.0,MUS,480
-"Congo, Republic of the",169.0,-1,178
-Bahrain,161.0,BHR,48
-Brunei,161.0,BRN,96
-Cayman Islands,160.0,CYM,136
-Isle of Man,160.0,IMN,833
-Saint Lucia,158.0,LCA,662
-Antigua and Barbuda,153.0,ATG,28
-Dominica,148.0,DMA,212
-Christmas Island,138.9,CXR,162
-Saint Kitts and Nevis,135.0,KNA,659
-Wallis and Futuna,129.0,WLF,876
-Guam,125.5,GUM,316
-Jan Mayen,124.1,NOR,578
-Benin,121.0,BEN,204
-Grenada,121.0,GRD,308
-Cook Islands,120.0,COK,184
-Saint Pierre and Miquelon,120.0,SPM,666
-American Samoa,116.0,ASM,16
-Bermuda,103.0,BMU,60
-Heard Island and McDonald Islands,101.9,HMD,334
-Tokelau,101.0,TKL,772
-Barbados,97.0,BRB,52
-"Saint Helena, Ascension and Tristan da Cunha",94.0,SHN,654
-Lithuania,90.0,LTU,440
-United States Pacific Island Wildlife Refuges,85.7,-1,
-Saint Vincent and the Grenadines,84.0,VCT,670
-Akrotiri and Dhekelia,83.8,-1,
-British Virgin Islands,80.0,VGB,92
-Gambia,80.0,GMB,270
-Ashmore and Cartier Islands,74.1,-1,
-Jersey,70.0,JEY,832
-Aruba,68.5,ABW,533
-Belgium,66.5,BEL,56
-Niue,64.0,NIU,570
-Anguilla,61.0,AIA,660
-Saint Martin,58.9,MAF,663
-Iraq,58.0,IRQ,368
-Togo,56.0,TGO,768
-Pitcairn Islands,51.0,-1,
-Guernsey,50.0,GGY,831
-Slovenia,46.6,SVN,705
-Macau,41.0,-1,
-Gaza Strip (Palestine),40.0,-1,
-Montserrat,40.0,MSR,500
-"Congo, Democratic Republic of the",37.0,-1,180
-Norfolk Island,32.0,NFK,574
-Nauru,30.0,NRU,520
-Bouvet Island,29.6,BVT,74
-Cocos (Keeling) Islands,26.0,CCK,166
-Jordan,26.0,JOR,400
-Tuvalu,24.0,TUV,798
-Bosnia and Herzegovina,20.0,BIH,70
-Wake Island,19.3,UMI,581
-Gibraltar,12.0,GIB,292
-Clipperton Island,11.1,-1,
-Navassa Island,8.0,UMI,581
-Monaco,4.1,MCO,492
-Kazakhstan,0.0,KAZ,398
-Turkmenistan,0.0,TKM,795
-Azerbaijan,0.0,AZE,31
-West Bank (Palestine),0.0,-1,
-Afghanistan,0.0,AFG,4
-Andorra,0.0,AND,20
-Armenia,0.0,ARM,51
-Austria,0.0,AUT,40
-Belarus,0.0,BLR,112
-Bhutan,0.0,BTN,64
-Bolivia,0.0,BOL,68
-Botswana,0.0,BWA,72
-Burkina Faso,0.0,BFA,854
-Burundi,0.0,BDI,108
-Central African Republic,0.0,CAF,140
-Chad,0.0,TCD,148
-Czech Republic,0.0,CZE,203
-Ethiopia,0.0,ETH,231
-Hungary,0.0,HUN,348
-Kosovo,0.0,SRB,688
-Kyrgyzstan,0.0,KGZ,417
-Laos,0.0,LAO,418
-Lesotho,0.0,LSO,426
-Liechtenstein,0.0,LIE,438
-Luxembourg,0.0,LUX,442
-Malawi,0.0,MWI,454
-Mali,0.0,MLI,466
-Moldova,0.0,MDA,498
-Mongolia,0.0,MNG,496
-Nepal,0.0,NPL,524
-Niger,0.0,NGA,562
-North Macedonia,0.0,MKD,807
-Paraguay,0.0,PRY,600
-Rwanda,0.0,RWA,646
-San Marino,0.0,SMR,674
-Serbia,0.0,SRB,688
-Slovakia,0.0,SVK,703
-South Sudan,0.0,SSD,728
-Swaziland,0.0,-1,
-Switzerland,0.0,CHE,756
-Tajikistan,0.0,TJK,762
-Uganda,0.0,UGA,800
-Uzbekistan,0.0,UZB,860
-Vatican City,0.0,VAT,336
-Zambia,0.0,ZMB,894
-Zimbabwe,0.0,ZWE,716
+Country,Coastline Length,Coast/area (m/km2),iso_a3,numeric_code
+Canada,202080.0,22.2,CAN,124
+Norway,83281.0,274,NOR,578
+Indonesia,54716.0,30.2,IDN,360
+Greenland,44087.0,20.4,GRL,304
+Russia,37653.0,2.30,RUS,643
+Philippines,36289.0,122,PHL,608
+Japan,29751.0,81.6,JPN,392
+Australia,25760.0,3.35,AUS,36
+United States,19924.0,2.18,USA,840
+Antarctica,17968.0,1.27,ATA,10
+New Zealand,15134.0,57.2,NZL,554
+China,14500.0,1.55,CHN,156
+Greece,13676.0,105,GRC,300
+United Kingdom,12429.0,51.4,GBR,826
+Mexico,9330.0,4.80,MEX,484
+Italy,7600.0,25.8,ITA,380
+Brazil,7491.0,0.896,BRA,76
+Denmark,7314.0,172,DNK,208
+Turkey,7200.0,9.36,-1,792
+India,7000.0,2.35,IND,356
+Chile,6435.0,8.65,CHL,152
+"Micronesia, Federated States of",6112.0,"8,710",FSM,583
+Croatia,5835.0,112,HRV,191
+Solomon Islands,5313.0,190,SLB,90
+Papua New Guinea,5152.0,11.4,PNG,598
+Argentina,4989.0,1.82,ARG,32
+Iceland,4970.0,49.6,ISL,352
+Spain,4964.0,9.95,ESP,724
+France,4853.0,7.58,FRA,250
+Madagascar,4828.0,8.30,MDG,450
+Malaysia,4675.0,14.2,MYS,458
+Estonia,3794.0,89.5,EST,233
+Cuba,3735.0,34.0,CUB,192
+Svalbard,3587.0,57.8,SJM,744
+"Bahamas, The",3542.0,354,-1,44
+Vietnam,3444.0,11.1,VNM,704
+Somalia,3333.0,4.82,SOM,706
+Thailand,3219.0,6.30,THA,764
+Sweden,3218.0,7.84,SWE,752
+Colombia,3208.0,3.09,COL,170
+Coral Sea Islands,3095.0,">1,000,000",-1,
+French Southern and Antarctic Lands,2948.4,385,-1,
+Morocco,2945.0,2.56,MAR,504
+Venezuela,2800.0,3.17,VEN,862
+South Africa,2798.0,2.30,ZAF,710
+Ukraine,2782.0,4.80,UKR,804
+Saudi Arabia,2640.0,1.23,SAU,682
+Vanuatu,2528.0,207,VUT,548
+French Polynesia,2525.0,660,PYF,258
+"Korea, North",2495.0,20.7,-1,408
+Panama,2490.0,33.5,PAN,591
+Mozambique,2470.0,3.14,MOZ,508
+Egypt,2450.0,2.46,EGY,818
+Iran,2440.0,1.59,IRN,364
+Peru,2414.0,1.89,PER,604
+"Korea, South",2413.0,24.9,-1,410
+Germany,2389.0,6.85,DEU,276
+New Caledonia,2254.0,123,NCL,540
+Ecuador,2237.0,8.08,ECU,218
+Eritrea,2234.0,22.1,ERI,232
+Oman,2092.0,6.76,OMN,512
+Myanmar,1930.0,2.95,MMR,104
+Yemen,1906.0,3.61,YEM,887
+Portugal,1793.0,19.6,PRT,620
+Haiti,1771.0,64.3,HTI,332
+Libya,1770.0,1.01,LBY,434
+Algeria,1644.0,0.690,DZA,12
+Angola,1600.0,1.28,AGO,24
+Namibia,1572.0,1.91,NAM,516
+Republic of China (Taiwan),1566.3,48.6,-1,
+Palau,1519.0,"3,310",PLW,585
+Northern Mariana Islands,1482.0,"3,190",MNP,580
+Ireland,1448.0,21.0,IRL,372
+Sri Lanka,1340.0,20.7,LKA,144
+Tanzania,1424.0,1.61,TZA,834
+United Arab Emirates,1318.0,15.8,ARE,784
+Costa Rica,1290.0,25.3,CRI,188
+Dominican Republic,1288.0,26.7,DOM,214
+Falkland Islands,1288.0,106,FLK,238
+Finland,1250.0,4.11,FIN,246
+Tunisia,1148.0,7.39,TUN,788
+Kiribati,1143.0,"1,410",KIR,296
+Fiji,1129.0,61.8,FJI,242
+Faroe Islands,1117.0,802,FRO,234
+Pakistan,1046.0,1.36,PAK,586
+Jamaica,1022.0,94.4,JAM,388
+Cape Verde,965.0,239,-1,
+Spratly Islands,926.0,">200,000",-1,
+Nicaragua,910.0,7.58,NIC,558
+Gabon,885.0,3.43,GAB,266
+Nigeria,853.0,0.937,NGA,566
+Sudan,853.0,0.493,SDN,729
+Honduras,832.0,7.44,HND,340
+Mauritania,754.0,0.732,MRT,478
+Hong Kong,733.0,683,HKG,344
+Timor-Leste,706.0,47.5,TLS,626
+British Indian Ocean Territory,698.0,"11,600",IOT,86
+Uruguay,660.0,3.77,URY,858
+Cyprus,648.0,70.1,CYP,196
+Maldives,644.0,"2,160",MDV,462
+Bangladesh,580.0,4.46,BGD,50
+Liberia,579.0,6.01,LBR,430
+Qatar,563.0,48.6,QAT,634
+Ghana,539.0,2.37,GHA,288
+Kenya,536.0,0.942,KEN,404
+Senegal,531.0,2.76,SEN,686
+Paracel Islands,518.0,"66,800",-1,
+Côte d'Ivoire (Ivory Coast),515.0,1.62,-1,
+Puerto Rico,501.0,55.9,PRI,630
+Kuwait,499.0,28.0,KWT,414
+Latvia,498.0,8.00,LVA,428
+Seychelles,491.0,"1,080",SYC,690
+Guyana,459.0,2.33,GUY,328
+Netherlands,451.0,13.3,NLD,528
+Cambodia,443.0,2.51,KHM,116
+Poland,440.0,1.45,POL,616
+Tonga,419.0,584,TON,776
+Samoa,403.0,143,WSM,882
+Cameroon,402.0,0.850,CMR,120
+Sierra Leone,402.0,5.61,SLE,694
+Guatemala,400.0,3.73,GTM,320
+Turks and Caicos Islands,389.0,410,TCA,796
+Belize,386.0,16.9,BLZ,84
+Suriname,386.0,2.47,SUR,740
+Marshall Islands,370.4,"2,050",MHL,584
+Curaçao,364.0,820,NLD,528
+Albania,362.0,13.2,ALB,8
+Trinidad and Tobago,362.0,70.6,TTO,780
+Bulgaria,354.0,3.26,BGR,100
+Guinea-Bissau,350.0,12.4,GNB,624
+Comoros,340.0,152,COM,174
+Guinea,320.0,1.30,GIN,324
+Djibouti,314.0,13.5,DJI,262
+Georgia,310.0,4.45,GEO,268
+El Salvador,307.0,14.8,SLV,222
+Equatorial Guinea,296.0,10.6,GNQ,226
+Montenegro,293.5,21.82,MNE,499
+Israel,273.0,12.7,ISR,376
+Malta,252.8,800,MLT,470
+Lebanon,225.0,22.0,LBN,422
+Romania,225.0,0.979,ROU,642
+São Tomé and Príncipe,209.0,217,STP,678
+Singapore,193.0,272,SGP,702
+Syria,193.0,1.04,SYR,760
+U.S. Virgin Islands,188.0,543,-1,
+Mauritius,177.0,87.2,MUS,480
+"Congo, Republic of the",169.0,0.495,-1,178
+Bahrain,161.0,212,BHR,48
+Brunei,161.0,30.6,BRN,96
+Cayman Islands,160.0,606,CYM,136
+Isle of Man,160.0,280,IMN,833
+Saint Lucia,158.0,261,LCA,662
+Antigua and Barbuda,153.0,346,ATG,28
+Dominica,148.0,197,DMA,212
+Christmas Island,138.9,"1,030",CXR,162
+Saint Kitts and Nevis,135.0,517,KNA,659
+Wallis and Futuna,129.0,908,WLF,876
+Guam,125.5,231,GUM,316
+Benin,121.0,1.09,BEN,204
+Grenada,121.0,352,GRD,308
+Cook Islands,120.0,508,COK,184
+Saint Pierre and Miquelon,120.0,496,SPM,666
+American Samoa,116.0,518,ASM,16
+Bermuda,103.0,"1,910",BMU,60
+Heard Island and McDonald Islands,101.9,247,HMD,334
+Tokelau,101.0,"8,420",TKL,772
+Barbados,97.0,226,BRB,52
+"Saint Helena, Ascension and Tristan da Cunha",94.0,239,SHN,654
+Lithuania,90.0,1.44,LTU,440
+United States Pacific Island Wildlife Refuges,85.7,"3,820",-1,
+Saint Vincent and the Grenadines,84.0,216,VCT,670
+Akrotiri and Dhekelia,83.8,330,-1,
+British Virgin Islands,80.0,530,VGB,92
+Gambia,80.0,7.91,GMB,270
+Ashmore and Cartier Islands,74.1,"14,800",-1,
+Jersey,70.0,603,JEY,832
+Aruba,68.5,381,ABW,533
+Belgium,66.5,2.20,BEL,56
+Niue,64.0,246,NIU,570
+Anguilla,61.0,670,AIA,660
+Saint Martin,58.9,"1,080",MAF,663
+Iraq,58.0,0.133,IRQ,368
+Togo,56.0,1.03,TGO,768
+Pitcairn Islands,51.0,"1,090",-1,
+Guernsey,50.0,641,GGY,831
+Slovenia,46.6,2.31,SVN,705
+Macau,41.0,"1,450",-1,
+Gaza Strip (Palestine),40.0,111,-1,
+Montserrat,40.0,392,MSR,500
+"Congo, Democratic Republic of the",37.0,0.0163,-1,180
+Norfolk Island,32.0,889,NFK,574
+Nauru,30.0,"1,430",NRU,520
+Bouvet Island,29.6,604,BVT,74
+Cocos (Keeling) Islands,26.0,"1,860",CCK,166
+Jordan,26.0,0.293,JOR,400
+Tuvalu,24.0,923,TUV,798
+Bosnia and Herzegovina,20.0,0.391,BIH,70
+Wake Island,19.3,"2,970",UMI,581
+Gibraltar,12.0,"1,850",GIB,292
+Clipperton Island,11.1,"1,850",-1,
+Navassa Island,8.0,"1,480",UMI,581
+Monaco,4.1,"2,050",MCO,492
+Kazakhstan,0.0,0,KAZ,398
+Turkmenistan,0.0,0,TKM,795
+Azerbaijan,0.0,0,AZE,31
+West Bank (Palestine),0.0,0,-1,
+Afghanistan,0.0,0,AFG,4
+Andorra,0.0,0,AND,20
+Armenia,0.0,0,ARM,51
+Austria,0.0,0,AUT,40
+Belarus,0.0,0,BLR,112
+Bhutan,0.0,0,BTN,64
+Bolivia,0.0,0,BOL,68
+Botswana,0.0,0,BWA,72
+Burkina Faso,0.0,0,BFA,854
+Burundi,0.0,0,BDI,108
+Central African Republic,0.0,0,CAF,140
+Chad,0.0,0,TCD,148
+Czech Republic,0.0,0,CZE,203
+Ethiopia,0.0,0,ETH,231
+Hungary,0.0,0,HUN,348
+Kosovo,0.0,0,SRB,688
+Kyrgyzstan,0.0,0,KGZ,417
+Laos,0.0,0,LAO,418
+Lesotho,0.0,0,LSO,426
+Liechtenstein,0.0,0,LIE,438
+Luxembourg,0.0,0,LUX,442
+Malawi,0.0,0,MWI,454
+Mali,0.0,0,MLI,466
+Moldova,0.0,0,MDA,498
+Mongolia,0.0,0,MNG,496
+Nepal,0.0,0,NPL,524
+Niger,0.0,0,NGA,562
+North Macedonia,0.0,0,MKD,807
+Paraguay,0.0,0,PRY,600
+Rwanda,0.0,0,RWA,646
+San Marino,0.0,0,SMR,674
+Serbia,0.0,0,SRB,688
+Slovakia,0.0,0,SVK,703
+South Sudan,0.0,0,SSD,728
+Swaziland,0.0,0,-1,
+Switzerland,0.0,0,CHE,756
+Tajikistan,0.0,0,TJK,762
+Uganda,0.0,0,UGA,800
+Uzbekistan,0.0,0,UZB,860
+Vatican City,0.0,0,VAT,336
+Zambia,0.0,0,ZMB,894
+Zimbabwe,0.0,0,ZWE,716

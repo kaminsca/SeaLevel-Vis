@@ -118,7 +118,7 @@ ghg_country_chart = alt.Chart(ghg_melted).mark_bar().add_params(
 st.altair_chart(ghg_country_chart, use_container_width=True)
 
 
-st.markdown('Furthermore, as our carbon dioxide and methane emissions are warming the planet, the global sea level is increasing accordingly. First of all, a warming earth causes water trapped in ice at the poles or in glaciers to melt, directly adding to the sea level, but increased temperature simultaneously causes water to expand, further increasing sea level. This trend can also cause a positive feedback loop: as glacier ice melts, the albedo of the earth is increased, causing the planet to reflect less sunlight and absorb more heat. Sea level rise has huge impacts on communities and extreme weather patterns --')
+st.markdown('Furthermore, as our carbon dioxide and methane emissions are warming the planet, the global sea level is increasing accordingly. First of all, a warming earth causes water trapped in ice at the poles or in glaciers to melt, directly adding to the sea level, but increased temperature simultaneously causes water to expand, further increasing sea level. This trend can also cause a positive feedback loop: as glacier ice melts, the albedo of the earth is increased, causing the planet to reflect less sunlight and absorb more heat. ')
 
 
 
@@ -165,6 +165,8 @@ interactive_sea_level = alt.layer(
 st.altair_chart(interactive_sea_level, use_container_width=True)
 
 
+st.markdown('Sea level rise can increase the rate of extreme weather event occurrences, which has huge impacts on communities, infrastructure, and land. With warmer atmospheres and higher ocean levels, hurricanes, floods, and storm surges will continue to become more common, which all have more impact on coastal countries than those with more landlocked regions.')
+
 
 coasts = pd.read_csv('./data/coasts_countries.csv')
 world = data.world_110m.url
@@ -183,6 +185,22 @@ choro = alt.Chart(countries).mark_geoshape(
 ).project(
     type='equalEarth'
 )
-st.altair_chart(choro, use_container_width=True)
+
+coast_per_area = alt.Chart(countries).mark_geoshape(
+    stroke='#aaa', strokeWidth=0.25
+).transform_lookup(
+    # lookup='id', from_=alt.LookupData(data=coasts, key='id', fields=['Country','Coastline Length'])
+    lookup='id',from_=alt.LookupData(data=coasts, key='numeric_code', fields=['Country', 'Coast/area (m/km2)'])
+).encode(
+    alt.Color('Coast/area (m/km2):Q', scale=alt.Scale(type='sqrt',scheme='yellowgreenblue'), legend=alt.Legend(title='Coast/area ratio (m/km2)')),
+    tooltip=['Country:N','Coast/area (m/km2):Q']
+).project(
+    type='equalEarth'
+).properties(
+    width=600,
+    height=500
+)
+combined = choro | coast_per_area
+st.altair_chart(combined, use_container_width=True)
 
 

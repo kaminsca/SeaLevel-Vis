@@ -118,7 +118,7 @@ ghg_country_chart = alt.Chart(ghg_melted).mark_bar().add_params(
 st.altair_chart(ghg_country_chart, use_container_width=True)
 
 
-st.markdown('Furthermore, as our carbon dioxide and methane emissions are warming the planet, the global sea level is increasing accordingly. First of all, a warming earth causes water trapped in ice at the poles or in glaciers to melt, directly adding to the sea level, but increased temperature simultaneously causes water to expand, further increasing sea level. This trend can also cause a positive feedback loop: as glacier ice melts, the albedo of the earth is increased, causing the planet to reflect less sunlight and absorb more heat. ')
+st.markdown('Furthermore, as our carbon dioxide and methane emissions are warming the planet, the global sea level is increasing accordingly. First of all, a warming earth causes water trapped in ice at the poles or in glaciers to melt, directly adding to the sea level, but increased temperature simultaneously causes water to expand, further increasing sea level. This trend can also cause a positive feedback loop: as glacier ice melts, the albedo of the earth is increased, causing the planet to reflect less sunlight and absorb more heat. In the following display, we can see how global mean sea level has risen over the past few decades, already reaching a peak of over 70 mm above the 20 year mean reference.')
 
 
 
@@ -184,6 +184,9 @@ choro = alt.Chart(countries).mark_geoshape(
     tooltip=['Country:N','Coastline Length:Q']
 ).project(
     type='equalEarth'
+).properties(
+    width=800,
+    height=600
 )
 
 coast_per_area = alt.Chart(countries).mark_geoshape(
@@ -196,7 +199,11 @@ coast_per_area = alt.Chart(countries).mark_geoshape(
     tooltip=['Country:N','Coast/area (m/km2):Q']
 ).project(
     type='equalEarth'
+).properties(
+    width=800,
+    height=600
 )
+
 vertical = (choro & coast_per_area).resolve_scale(
     color='independent'
 )

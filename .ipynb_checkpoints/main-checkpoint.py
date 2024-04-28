@@ -18,7 +18,7 @@ co2_df = pd.read_csv('./data/mean_co2_ppm.csv')
 sea_level_df = pd.read_csv('./data/mean_sea_level_global.csv')
 
 # vis 1
-co2_df.rename(columns={'Year': 'Year'}, inplace=True)
+co2_df.rename(columns={'decimal_year': 'Year'}, inplace=True)
 zoom = alt.selection_interval(bind='scales', encodings=['x'])
 nearest = alt.selection_point(on='mouseover', nearest=True, empty=False, encodings=['x'])
 
@@ -60,3 +60,52 @@ interactive_co2 = alt.layer(
 # interactive_co2
 
 st.altair_chart(interactive_co2, use_container_width=True)
+
+
+
+
+
+
+
+# second plot:
+ghg_df_cleaned = ghg_df[ghg_df['Country'] != 'GLOBAL TOTAL']
+ghg_df_cleaned = ghg_df_cleaned[ghg_df_cleaned['Country'] != 'EU27']
+ghg_df_cleaned = ghg_df_cleaned[ghg_df_cleaned['Country'] != 'International Shipping']
+ghg_df_cleaned = ghg_df_cleaned[ghg_df_cleaned['Country'] != 'International Aviation']
+ghg_df_cleaned['Country'] = ghg_df_cleaned['Country'].replace('Italy, San Marino and the Holy See', 'Italy')
+ghg_df_cleaned['Country'] = ghg_df_cleaned['Country'].replace('Spain and Andorra', 'Spain')
+ghg_df_cleaned['Country'] = ghg_df_cleaned['Country'].replace('France and Monaco', 'France')
+ghg_melted = ghg_df_cleaned.melt(id_vars=["EDGAR Country Code", "Country"],var_name="Year",value_name="Emissions")
+ghg_melted['Year'] = ghg_melted['Year'].astype(int)
+
+alt.data_transformers.disable_max_rows()
+max_emissions = max(ghg_melted.Emissions)
+year_slider = alt.binding_range(min=1970, max=2022, step=1)
+slider_selection = alt.selection_point(bind=year_slider, fields=['Year'], name="Select", value=2022)
+
+ghg_country_chart = alt.Chart(ghg_melted).mark_bar().add_params(
+    slider_selection
+).transform_filter(
+    slider_selection
+).transform_window(
+    rank='rank(Emissions)',
+    sort=[alt.SortField('Emissions', order='descending')],
+    groupby=['Year']
+).transform_filter(
+    alt.datum.rank <= 15
+).encode(
+    y=alt.Y('Country:N', sort=alt.EncodingSortField(field='Emissions', order='descending'), axis=alt.Axis(title=None)),
+    x=alt.X(
+        'Emissions:Q',
+        title='Mton CO2 equivalent',
+        scale=alt.Scale(domain=(0, max_emissions))
+    ),
+    color=alt.Color('Emissions:Q', legend=alt.Legend(title="Emissions (Mton CO2 eq)"), scale=alt.Scale(domain=(0, max_emissions), scheme='reds')),
+    tooltip=['Country', 'Year', 'Emissions']
+)
+
+st.altair_chart(ghg_country_chart, use_container_width=True)
+
+
+
+

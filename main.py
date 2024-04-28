@@ -8,7 +8,6 @@ import pycountry
 
 st.title('Responsibility and Impact of Climate Change') 
 st.header('Clark Kaminsky') 
-st.subheader('4/28/2024')
 st.markdown('Every year, humans continue to produce more greenhouse gas emissions as a result of industrialization, travel, and food production. Global warming has been shown to be directly proportional to the amount of carbon dioxide in the atmosphere, which is one of the primary products of burning coal, natural gas, and other fossil fuels. For every 10 parts per million increase in atmospheric carbon dioxide, the mean global temperature has been shown to rise by a tenth of a Celsius degree. In the following chart, we can explore how the levels of carbon dioxide have changed over time. The jagged fluctuations in the graph reflect the decomposition and growth of vegetation, casuing a natural rise and fall each year, but see that the general trend is that carbon dioxide is rising, and the rate of this increase is getting higher each year. The current level of atmospheric carbon dioxide is the highest it has been in anthropogenic history. Feel free to zoom and pan to find specific data.')
 
 # Create dataframes:

@@ -196,9 +196,6 @@ coast_per_area = alt.Chart(countries).mark_geoshape(
     tooltip=['Country:N','Coast/area (m/km2):Q']
 ).project(
     type='equalEarth'
-).properties(
-    width=600,
-    height=500
 )
 combined = choro | coast_per_area
 st.altair_chart(combined, use_container_width=True)

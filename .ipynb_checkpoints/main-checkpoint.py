@@ -119,6 +119,48 @@ st.altair_chart(ghg_country_chart, use_container_width=True)
 
 
 
+zoom2 = alt.selection_interval(bind='scales', encodings=['x'])
+nearest2 = alt.selection_point(on='mouseover', nearest=True, empty=False, encodings=['x'])
+
+sea_level_chart = alt.Chart(sea_level_df).mark_line().encode(
+    y = alt.Y('GMSL_mm:Q', title='Global Mean Sea Level Variation (mm)'),
+    x = alt.X('decimal_year:Q', title='Year', axis=alt.Axis(format='d', title=None), scale=alt.Scale(domain=[1995, 2023])),
+    # tooltip=['decimal_year:Q', 'GMSL_mm:Q']
+    tooltip=alt.value(None),
+).add_params(
+    zoom2
+)
+# sea_level_chart
+line = alt.Chart(sea_level_df).mark_rule(size=4, color='lightgray').encode(
+    x='decimal_year:Q',
+    opacity=alt.condition(nearest2, alt.value(0.7), alt.value(0)),
+).add_params(
+    nearest2
+)
+
+points = sea_level_chart.mark_point(size=90, color='firebrick').transform_filter(
+    nearest2
+).encode(
+    opacity=alt.condition(nearest2, alt.value(1), alt.value(0))
+)
+
+labels = sea_level_chart.mark_text(align='left', dx=-40, dy=-15).encode(
+    text=alt.condition(nearest2, alt.Text('GMSL_mm:Q', format='.2f'), alt.value(' '))
+).transform_filter(
+    nearest2
+)
+
+interactive_sea_level = alt.layer(
+    sea_level_chart,
+    line,
+    points,
+    labels
+)
+
+st.altair_chart(interactive_sea_level, use_container_width=True)
+
+
+
 coasts = pd.read_csv('./data/coasts_countries.csv')
 world = data.world_110m.url
 countries = alt.topo_feature(world, 'countries')

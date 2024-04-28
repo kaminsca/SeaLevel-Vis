@@ -200,6 +200,6 @@ coast_per_area = alt.Chart(countries).mark_geoshape(
 horizontal = (choro | coast_per_area).resolve_scale(
     color='independent'
 )
-st.altair_chart(combined, use_container_width=True)
+st.altair_chart(horizontal, use_container_width=True)
 
 

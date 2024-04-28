@@ -18,19 +18,19 @@ co2_df = pd.read_csv('./data/mean_co2_ppm.csv')
 sea_level_df = pd.read_csv('./data/mean_sea_level_global.csv')
 
 # vis 1
-co2_df.rename(columns={'decimal_year': 'Year'}, inplace=True)
+co2_df.rename(columns={'Year': 'Year'}, inplace=True)
 zoom = alt.selection_interval(bind='scales', encodings=['x'])
 nearest = alt.selection_point(on='mouseover', nearest=True, empty=False, encodings=['x'])
 
 co2_chart = alt.Chart(co2_df).mark_line().encode(
     y = alt.Y('monthly_average:Q', title='CO2 (ppm)'),
-    x = alt.X('decimal_year:Q', title='Year', axis=alt.Axis(format='d', title=None), scale=alt.Scale(domain=[1961, 2023]))
+    x = alt.X('Year:Q', title='Year', axis=alt.Axis(format='d', title=None), scale=alt.Scale(domain=[1961, 2023]))
 ).add_params(
     zoom
 )
 
 vertical_line = alt.Chart(co2_df).mark_rule(size=4, color='lightgray').encode(
-    x='decimal_year:Q',
+    x='Year:Q',
     opacity=alt.condition(nearest, alt.value(0.7), alt.value(0)),
 ).add_params(
     nearest

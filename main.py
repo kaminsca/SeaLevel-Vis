@@ -119,7 +119,7 @@ st.altair_chart(ghg_country_chart, use_container_width=True)
 
 
 
-
+sea_level_df.rename(columns={"fld3": "decimal_year", "fld6": "GMSL_mm"}, inplace=True)
 zoom2 = alt.selection_interval(bind='scales', encodings=['x'])
 nearest2 = alt.selection_point(on='mouseover', nearest=True, empty=False, encodings=['x'])
 

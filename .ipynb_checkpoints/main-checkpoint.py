@@ -209,4 +209,4 @@ vertical = (choro & coast_per_area).resolve_scale(
 )
 st.altair_chart(vertical, use_container_width=True)
 
-st.markdown('Comparing these maps to the list of countries that have produced the most significant amounts of greenhouse gas emissions, we can find very little overlap. Island countries will be disproportionately damaged compared to their contributions to climate change, especially since they are often less affluent, developing nations.')
+st.markdown('Comparing these maps to the list of countries that have produced the most significant amounts of greenhouse gas emissions, we find very little overlap. Nations like China, the United States, India, and Russia have consistently been top emitters, but small island countries will be disproportionately damaged compared to their contributions to climate change, especially since they are often less affluent, developing nations.')

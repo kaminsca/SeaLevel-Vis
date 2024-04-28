@@ -212,7 +212,7 @@ st.markdown('Comparing these maps to the list of countries that have produced th
 
 st.markdown('In conclusion, we have seen that human activities—specifically industrial practices, transportation, and agriculture—have led to a significant and alarming increase in greenhouse gas emissions, intensifying global warming. The correlation between rising carbon dioxide levels and rising global temperatures has now become a clear signal of the accelerating impact humans are having on our planet. As industrialized and wealthy nations continue to dominate the production of greenhouse gas emissions, contributing disproportionately to this existential threat, we approach a difficult and evolving climate justice dilemma. Smaller, less developed nations, particularly island states with extensive coastlines, face devastating repercussions from the rising sea levels and extreme weather events that arise from global warming—disasters to which they have contributed the least. Commitment to sustainable practices, reformed industrial processes, and efforts to protect those most at risk is essential as we as a planet reach the point of no return.')
 
-sources = ''''Data sources:
+sources = '''Data sources:
 1. https://edgar.jrc.ec.europa.eu/report_2023
 
 2. https://climate.nasa.gov/vital-signs/carbon-dioxide/?intent=121

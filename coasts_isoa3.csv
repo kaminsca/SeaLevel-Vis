@@ -1,0 +1,250 @@
+Country,Coastline Length,iso_a3
+Canada,202080.0,CAN
+Norway,83281.0,NOR
+Indonesia,54716.0,IDN
+Greenland,44087.0,GRL
+Russia,37653.0,-1
+Philippines,36289.0,PHL
+Japan,29751.0,JPN
+Australia,25760.0,AUS
+United States,19924.0,USA
+Antarctica,17968.0,ATA
+New Zealand,15134.0,NZL
+China,14500.0,CHN
+Greece,13676.0,GRC
+United Kingdom,12429.0,GBR
+Mexico,9330.0,MEX
+Italy,7600.0,ITA
+Brazil,7491.0,BRA
+Denmark,7314.0,DNK
+Turkey,7200.0,-1
+India,7000.0,IND
+Chile,6435.0,CHL
+"Micronesia, Federated States of",6112.0,FSM
+Croatia,5835.0,HRV
+Solomon Islands,5313.0,SLB
+Papua New Guinea,5152.0,PNG
+Argentina,4989.0,ARG
+Iceland,4970.0,ISL
+Spain,4964.0,ESP
+France,4853.0,FRA
+Madagascar,4828.0,MDG
+Malaysia,4675.0,MYS
+Estonia,3794.0,EST
+Cuba,3735.0,CUB
+Svalbard,3587.0,-1
+"Bahamas, The",3542.0,-1
+Vietnam,3444.0,VNM
+Somalia,3333.0,SOM
+Thailand,3219.0,THA
+Sweden,3218.0,SWE
+Colombia,3208.0,COL
+Coral Sea Islands,3095.0,-1
+French Southern and Antarctic Lands,2948.4,-1
+Morocco,2945.0,MAR
+Venezuela,2800.0,VEN
+South Africa,2798.0,ZAF
+Ukraine,2782.0,UKR
+Saudi Arabia,2640.0,SAU
+Vanuatu,2528.0,VUT
+French Polynesia,2525.0,PYF
+"Korea, North",2495.0,-1
+Panama,2490.0,PAN
+Mozambique,2470.0,MOZ
+Egypt,2450.0,EGY
+Iran,2440.0,IRN
+Peru,2414.0,PER
+"Korea, South",2413.0,-1
+Germany,2389.0,DEU
+New Caledonia,2254.0,NCL
+Ecuador,2237.0,ECU
+Eritrea,2234.0,ERI
+Oman,2092.0,OMN
+Myanmar,1930.0,MMR
+Yemen,1906.0,YEM
+Portugal,1793.0,PRT
+Haiti,1771.0,HTI
+Libya,1770.0,LBY
+Algeria,1644.0,DZA
+Angola,1600.0,AGO
+Namibia,1572.0,NAM
+Republic of China (Taiwan),1566.3,-1
+Palau,1519.0,PLW
+Northern Mariana Islands,1482.0,MNP
+Ireland,1448.0,IRL
+Sri Lanka,1340.0,LKA
+Tanzania,1424.0,TZA
+United Arab Emirates,1318.0,ARE
+Costa Rica,1290.0,CRI
+Dominican Republic,1288.0,DOM
+Falkland Islands,1288.0,-1
+Finland,1250.0,FIN
+Tunisia,1148.0,TUN
+Kiribati,1143.0,KIR
+Fiji,1129.0,FJI
+Faroe Islands,1117.0,FRO
+Pakistan,1046.0,PAK
+Jamaica,1022.0,JAM
+Cape Verde,965.0,-1
+Spratly Islands,926.0,-1
+Nicaragua,910.0,NIC
+Gabon,885.0,GAB
+Nigeria,853.0,NGA
+Sudan,853.0,SDN
+Honduras,832.0,HND
+Mauritania,754.0,MRT
+Hong Kong,733.0,HKG
+Timor-Leste,706.0,TLS
+British Indian Ocean Territory,698.0,IOT
+Uruguay,660.0,URY
+Cyprus,648.0,CYP
+Maldives,644.0,MDV
+Bangladesh,580.0,BGD
+Liberia,579.0,LBR
+Qatar,563.0,QAT
+Ghana,539.0,GHA
+Kenya,536.0,KEN
+Senegal,531.0,SEN
+Paracel Islands,518.0,-1
+Côte d'Ivoire (Ivory Coast),515.0,-1
+Puerto Rico,501.0,PRI
+Kuwait,499.0,KWT
+Latvia,498.0,LVA
+Seychelles,491.0,SYC
+Guyana,459.0,GUY
+Netherlands,451.0,NLD
+Cambodia,443.0,KHM
+Poland,440.0,POL
+Tonga,419.0,TON
+Samoa,403.0,WSM
+Cameroon,402.0,CMR
+Sierra Leone,402.0,SLE
+Guatemala,400.0,GTM
+Turks and Caicos Islands,389.0,TCA
+Belize,386.0,BLZ
+Suriname,386.0,SUR
+Marshall Islands,370.4,MHL
+Curaçao,364.0,CUW
+Albania,362.0,ALB
+Trinidad and Tobago,362.0,TTO
+Bulgaria,354.0,BGR
+Guinea-Bissau,350.0,GNB
+Comoros,340.0,COM
+Guinea,320.0,GIN
+Djibouti,314.0,DJI
+Georgia,310.0,GEO
+El Salvador,307.0,SLV
+Equatorial Guinea,296.0,GNQ
+Montenegro,293.5,MNE
+Israel,273.0,ISR
+Malta,252.8,MLT
+Lebanon,225.0,LBN
+Romania,225.0,ROU
+São Tomé and Príncipe,209.0,-1
+Singapore,193.0,SGP
+Syria,193.0,SYR
+U.S. Virgin Islands,188.0,-1
+Mauritius,177.0,MUS
+"Congo, Republic of the",169.0,-1
+Bahrain,161.0,BHR
+Brunei,161.0,-1
+Cayman Islands,160.0,CYM
+Isle of Man,160.0,IMN
+Saint Lucia,158.0,LCA
+Antigua and Barbuda,153.0,ATG
+Dominica,148.0,DMA
+Christmas Island,138.9,CXR
+Saint Kitts and Nevis,135.0,KNA
+Wallis and Futuna,129.0,WLF
+Guam,125.5,GUM
+Jan Mayen,124.1,-1
+Benin,121.0,BEN
+Grenada,121.0,GRD
+Cook Islands,120.0,COK
+Saint Pierre and Miquelon,120.0,SPM
+American Samoa,116.0,ASM
+Bermuda,103.0,BMU
+Heard Island and McDonald Islands,101.9,HMD
+Tokelau,101.0,TKL
+Barbados,97.0,BRB
+"Saint Helena, Ascension and Tristan da Cunha",94.0,SHN
+Lithuania,90.0,LTU
+United States Pacific Island Wildlife Refuges,85.7,-1
+Saint Vincent and the Grenadines,84.0,VCT
+Akrotiri and Dhekelia,83.8,-1
+British Virgin Islands,80.0,VGB
+Gambia,80.0,GMB
+Ashmore and Cartier Islands,74.1,-1
+Jersey,70.0,JEY
+Aruba,68.5,ABW
+Belgium,66.5,BEL
+Niue,64.0,NIU
+Anguilla,61.0,AIA
+Saint Martin,58.9,-1
+Iraq,58.0,IRQ
+Togo,56.0,TGO
+Pitcairn Islands,51.0,-1
+Guernsey,50.0,GGY
+Slovenia,46.6,SVN
+Macau,41.0,-1
+Gaza Strip (Palestine),40.0,-1
+Montserrat,40.0,MSR
+"Congo, Democratic Republic of the",37.0,-1
+Norfolk Island,32.0,NFK
+Nauru,30.0,NRU
+Bouvet Island,29.6,BVT
+Cocos (Keeling) Islands,26.0,CCK
+Jordan,26.0,JOR
+Tuvalu,24.0,TUV
+Bosnia and Herzegovina,20.0,BIH
+Wake Island,19.3,-1
+Gibraltar,12.0,GIB
+Clipperton Island,11.1,-1
+Navassa Island,8.0,-1
+Monaco,4.1,MCO
+Kazakhstan,0.0,KAZ
+Turkmenistan,0.0,TKM
+Azerbaijan,0.0,AZE
+West Bank (Palestine),0.0,-1
+Afghanistan,0.0,AFG
+Andorra,0.0,AND
+Armenia,0.0,ARM
+Austria,0.0,AUT
+Belarus,0.0,BLR
+Bhutan,0.0,BTN
+Bolivia,0.0,BOL
+Botswana,0.0,BWA
+Burkina Faso,0.0,BFA
+Burundi,0.0,BDI
+Central African Republic,0.0,CAF
+Chad,0.0,TCD
+Czech Republic,0.0,CZE
+Ethiopia,0.0,ETH
+Hungary,0.0,HUN
+Kosovo,0.0,-1
+Kyrgyzstan,0.0,KGZ
+Laos,0.0,LAO
+Lesotho,0.0,LSO
+Liechtenstein,0.0,LIE
+Luxembourg,0.0,LUX
+Malawi,0.0,MWI
+Mali,0.0,MLI
+Moldova,0.0,MDA
+Mongolia,0.0,MNG
+Nepal,0.0,NPL
+Niger,0.0,NER
+North Macedonia,0.0,MKD
+Paraguay,0.0,PRY
+Rwanda,0.0,RWA
+San Marino,0.0,SMR
+Serbia,0.0,SRB
+Slovakia,0.0,SVK
+South Sudan,0.0,SSD
+Swaziland,0.0,-1
+Switzerland,0.0,CHE
+Tajikistan,0.0,TJK
+Uganda,0.0,UGA
+Uzbekistan,0.0,UZB
+Vatican City,0.0,-1
+Zambia,0.0,ZMB
+Zimbabwe,0.0,ZWE

@@ -67,17 +67,25 @@ st.markdown('Atmospheric greenhouse gases have been produced from industrial emi
 
 
 
-
+def name_to_numeric(country_name):
+    try:
+        # print(country_name)
+        return pycountry.countries.search_fuzzy(country_name)[0].numeric
+    except LookupError:
+        return -1
 
 # second plot:
 ghg_df_cleaned = ghg_df[ghg_df['Country'] != 'GLOBAL TOTAL']
+ghg_df_cleaned = ghg_df_cleaned.dropna(subset=['Country'])
 ghg_df_cleaned = ghg_df_cleaned[ghg_df_cleaned['Country'] != 'EU27']
 ghg_df_cleaned = ghg_df_cleaned[ghg_df_cleaned['Country'] != 'International Shipping']
 ghg_df_cleaned = ghg_df_cleaned[ghg_df_cleaned['Country'] != 'International Aviation']
 ghg_df_cleaned['Country'] = ghg_df_cleaned['Country'].replace('Italy, San Marino and the Holy See', 'Italy')
 ghg_df_cleaned['Country'] = ghg_df_cleaned['Country'].replace('Spain and Andorra', 'Spain')
 ghg_df_cleaned['Country'] = ghg_df_cleaned['Country'].replace('France and Monaco', 'France')
-ghg_melted = ghg_df_cleaned.melt(id_vars=["EDGAR Country Code", "Country"],var_name="Year",value_name="Emissions")
+ghg_df_cleaned['numeric_code'] = ghg_df_cleaned['Country'].apply(lambda x: name_to_numeric(x))
+
+ghg_melted = ghg_df_cleaned.melt(id_vars=["EDGAR Country Code", "Country", "numeric_code"],var_name="Year",value_name="Emissions")
 ghg_melted['Year'] = ghg_melted['Year'].astype(int)
 
 alt.data_transformers.disable_max_rows()
@@ -109,5 +117,28 @@ ghg_country_chart = alt.Chart(ghg_melted).mark_bar().add_params(
 st.altair_chart(ghg_country_chart, use_container_width=True)
 
 
+
+
+coasts = pd.read_csv('./data/coasts_countries.csv')
+world = data.world_110m.url
+countries = alt.topo_feature(world, 'countries')
+# selection = alt.selection_point(fields=['Country'], empty=False, value=840)
+
+choro = alt.Chart(countries).mark_geoshape(
+    stroke='#aaa', strokeWidth=0.25
+).transform_lookup(
+    # lookup='id', from_=alt.LookupData(data=coasts, key='id', fields=['Country','Coastline Length'])
+    lookup='id',from_=alt.LookupData(data=coasts, key='numeric_code', fields=['Country', 'Coastline Length'])
+).encode(
+    alt.Color('Coastline Length:Q', scale=alt.Scale(type='sqrt',scheme='yellowgreenblue'), legend=alt.Legend(title='Coastline Length (km)')),
+    # opacity=alt.condition(selection, alt.value(1), alt.value(0.5)),
+    tooltip=['Country:N','Coastline Length:Q']
+).project(
+    type='equalEarth'
+).properties(
+    width=600,
+    height=500
+)
+st.altair_chart(choro, use_container_width=True)
 
 

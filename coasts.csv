@@ -1,0 +1,250 @@
+Country,Coastline Length
+Canada,202080.0
+Norway,83281.0
+Indonesia,54716.0
+Greenland,44087.0
+Russia,37653.0
+Philippines,36289.0
+Japan,29751.0
+Australia,25760.0
+United States,19924.0
+Antarctica,17968.0
+New Zealand,15134.0
+China,14500.0
+Greece,13676.0
+United Kingdom,12429.0
+Mexico,9330.0
+Italy,7600.0
+Brazil,7491.0
+Denmark,7314.0
+Turkey,7200.0
+India,7000.0
+Chile,6435.0
+"Micronesia, Federated States of",6112.0
+Croatia,5835.0
+Solomon Islands,5313.0
+Papua New Guinea,5152.0
+Argentina,4989.0
+Iceland,4970.0
+Spain,4964.0
+France,4853.0
+Madagascar,4828.0
+Malaysia,4675.0
+Estonia,3794.0
+Cuba,3735.0
+Svalbard,3587.0
+"Bahamas, The",3542.0
+Vietnam,3444.0
+Somalia,3333.0
+Thailand,3219.0
+Sweden,3218.0
+Colombia,3208.0
+Coral Sea Islands,3095.0
+French Southern and Antarctic Lands,2948.4
+Morocco,2945.0
+Venezuela,2800.0
+South Africa,2798.0
+Ukraine,2782.0
+Saudi Arabia,2640.0
+Vanuatu,2528.0
+French Polynesia,2525.0
+"Korea, North",2495.0
+Panama,2490.0
+Mozambique,2470.0
+Egypt,2450.0
+Iran,2440.0
+Peru,2414.0
+"Korea, South",2413.0
+Germany,2389.0
+New Caledonia,2254.0
+Ecuador,2237.0
+Eritrea,2234.0
+Oman,2092.0
+Myanmar,1930.0
+Yemen,1906.0
+Portugal,1793.0
+Haiti,1771.0
+Libya,1770.0
+Algeria,1644.0
+Angola,1600.0
+Namibia,1572.0
+Republic of China (Taiwan),1566.3
+Palau,1519.0
+Northern Mariana Islands,1482.0
+Ireland,1448.0
+Sri Lanka,1340.0
+Tanzania,1424.0
+United Arab Emirates,1318.0
+Costa Rica,1290.0
+Dominican Republic,1288.0
+Falkland Islands,1288.0
+Finland,1250.0
+Tunisia,1148.0
+Kiribati,1143.0
+Fiji,1129.0
+Faroe Islands,1117.0
+Pakistan,1046.0
+Jamaica,1022.0
+Cape Verde,965.0
+Spratly Islands,926.0
+Nicaragua,910.0
+Gabon,885.0
+Nigeria,853.0
+Sudan,853.0
+Honduras,832.0
+Mauritania,754.0
+Hong Kong,733.0
+Timor-Leste,706.0
+British Indian Ocean Territory,698.0
+Uruguay,660.0
+Cyprus,648.0
+Maldives,644.0
+Bangladesh,580.0
+Liberia,579.0
+Qatar,563.0
+Ghana,539.0
+Kenya,536.0
+Senegal,531.0
+Paracel Islands,518.0
+Côte d'Ivoire (Ivory Coast),515.0
+Puerto Rico,501.0
+Kuwait,499.0
+Latvia,498.0
+Seychelles,491.0
+Guyana,459.0
+Netherlands,451.0
+Cambodia,443.0
+Poland,440.0
+Tonga,419.0
+Samoa,403.0
+Cameroon,402.0
+Sierra Leone,402.0
+Guatemala,400.0
+Turks and Caicos Islands,389.0
+Belize,386.0
+Suriname,386.0
+Marshall Islands,370.4
+Curaçao,364.0
+Albania,362.0
+Trinidad and Tobago,362.0
+Bulgaria,354.0
+Guinea-Bissau,350.0
+Comoros,340.0
+Guinea,320.0
+Djibouti,314.0
+Georgia,310.0
+El Salvador,307.0
+Equatorial Guinea,296.0
+Montenegro,293.5
+Israel,273.0
+Malta,252.8
+Lebanon,225.0
+Romania,225.0
+São Tomé and Príncipe,209.0
+Singapore,193.0
+Syria,193.0
+U.S. Virgin Islands,188.0
+Mauritius,177.0
+"Congo, Republic of the",169.0
+Bahrain,161.0
+Brunei,161.0
+Cayman Islands,160.0
+Isle of Man,160.0
+Saint Lucia,158.0
+Antigua and Barbuda,153.0
+Dominica,148.0
+Christmas Island,138.9
+Saint Kitts and Nevis,135.0
+Wallis and Futuna,129.0
+Guam,125.5
+Jan Mayen,124.1
+Benin,121.0
+Grenada,121.0
+Cook Islands,120.0
+Saint Pierre and Miquelon,120.0
+American Samoa,116.0
+Bermuda,103.0
+Heard Island and McDonald Islands,101.9
+Tokelau,101.0
+Barbados,97.0
+"Saint Helena, Ascension and Tristan da Cunha",94.0
+Lithuania,90.0
+United States Pacific Island Wildlife Refuges,85.7
+Saint Vincent and the Grenadines,84.0
+Akrotiri and Dhekelia,83.8
+British Virgin Islands,80.0
+Gambia,80.0
+Ashmore and Cartier Islands,74.1
+Jersey,70.0
+Aruba,68.5
+Belgium,66.5
+Niue,64.0
+Anguilla,61.0
+Saint Martin,58.9
+Iraq,58.0
+Togo,56.0
+Pitcairn Islands,51.0
+Guernsey,50.0
+Slovenia,46.6
+Macau,41.0
+Gaza Strip (Palestine),40.0
+Montserrat,40.0
+"Congo, Democratic Republic of the",37.0
+Norfolk Island,32.0
+Nauru,30.0
+Bouvet Island,29.6
+Cocos (Keeling) Islands,26.0
+Jordan,26.0
+Tuvalu,24.0
+Bosnia and Herzegovina,20.0
+Wake Island,19.3
+Gibraltar,12.0
+Clipperton Island,11.1
+Navassa Island,8.0
+Monaco,4.1
+Kazakhstan,0.0
+Turkmenistan,0.0
+Azerbaijan,0.0
+West Bank (Palestine),0.0
+Afghanistan,0.0
+Andorra,0.0
+Armenia,0.0
+Austria,0.0
+Belarus,0.0
+Bhutan,0.0
+Bolivia,0.0
+Botswana,0.0
+Burkina Faso,0.0
+Burundi,0.0
+Central African Republic,0.0
+Chad,0.0
+Czech Republic,0.0
+Ethiopia,0.0
+Hungary,0.0
+Kosovo,0.0
+Kyrgyzstan,0.0
+Laos,0.0
+Lesotho,0.0
+Liechtenstein,0.0
+Luxembourg,0.0
+Malawi,0.0
+Mali,0.0
+Moldova,0.0
+Mongolia,0.0
+Nepal,0.0
+Niger,0.0
+North Macedonia,0.0
+Paraguay,0.0
+Rwanda,0.0
+San Marino,0.0
+Serbia,0.0
+Slovakia,0.0
+South Sudan,0.0
+Swaziland,0.0
+Switzerland,0.0
+Tajikistan,0.0
+Uganda,0.0
+Uzbekistan,0.0
+Vatican City,0.0
+Zambia,0.0
+Zimbabwe,0.0
